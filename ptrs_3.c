@@ -14,7 +14,7 @@ int main(int argc, char const *argv[])
 {
 	int num = 9;
 	void *pv;
-	printf("The value of pv after initialization is %p\n", pv);
+	// printf("The value of pv after initialization is %p\n", pv); //generates warning if used uninitialized
 
 	pv = &num;
 	printf("the value of pv after num is: %p\n", pv);

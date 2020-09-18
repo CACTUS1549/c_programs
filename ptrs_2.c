@@ -29,8 +29,8 @@ int main(int argc, char const *argv[])
 	printf("The value of num2 is %d\n", num2);
 
 	//Not initialized meaning it may contain garbage value and should not be used. 
-	int *pi_2;	
-	printf("The value of pi_2 before is %p\n", pi_2);	//some compilers initialize to 0 by default.
+	int *pi_2;	//generates warning if used uninitialized
+	//printf("The value of pi_2 before is %p\n", pi_2);	//some compilers initialize to 0 by default.
 
 	pi_2 = &num2;	//assign it some address.
 	printf("The value of pi_2 after is %p\n", pi_2); 

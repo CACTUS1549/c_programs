@@ -95,7 +95,11 @@ int main(int argc, char const *argv[])
 
 
 	/*********************	CONSTANT POINTERS TO CONSTANTS	********************/
-	
+
+	// it means the pointer cannot be changed, and the data it points to cannot be changed through the pointer. 
+	const int another_const_int = 909;
+
+	const int * const cpci = &another_const_int;
 	
 
 	return 0;
