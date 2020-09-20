@@ -11,8 +11,10 @@ all:
 	cc -Wall ptrs_08.c -o ptrs_08
 	cc -Wall ptrs_09.c -o ptrs_09
 	cc -Wall ptrs_10.c -o ptrs_10
+	cc -Wall ptrs_11.c -o ptrs_11
+	cc -Wall ptrs_12.c -o ptrs_12
 
 .PHONY : clean
 clean:
 	rm -f ptrs_01 ptrs_02 ptrs_03 ptrs_04 ptrs_05 ptrs_06 ptrs_07 ptrs_08 ptrs_09 \
-	sizes_max_values ptrs_10
+	sizes_max_values ptrs_10 ptrs_11 ptrs_12
